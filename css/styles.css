@@ -238,10 +238,21 @@ section:nth-of-type(3n + 1) .landing__container::after {
 }
 
 
-.active-item{
+.active-item {
     background-color: #02B3E4 !important;
 }
 
+
+/* @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .active-item {
+        background-color: #02B3E4 !important;
+    }
+
+    section.your-active-class {
+        background: #02B3E4;
+    }
+
+} */
 
 /* ---- Theme State Rules ---- */
 /* Section Active Styles */

@@ -34,7 +34,7 @@ const checkViewPort = () => {
     let activeItem = unorderedList.childNodes[sectionID];
     // console.log(bounding);
     if (
-      bounding.top >= 0 &&
+      bounding.top >= -300 &&
       bounding.left >= 0 &&
       bounding.right <= window.innerWidth &&
       bounding.bottom <= window.innerHeight
